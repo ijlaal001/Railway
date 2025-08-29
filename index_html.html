@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Info - Train Search</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-brand">Railway Info</a>
+            <ul class="nav-menu">
+                <li><a href="/" class="nav-link active">Train Search</a></li>
+                <li><a href="/pnr" class="nav-link">PNR Status</a></li>
+                <li><a href="/status" class="nav-link">Live Status</a></li>
+                <li><a href="/favorites" class="nav-link">Favorites</a></li>
+            </ul>
+            <div id="auth-section"></div>
+        </div>
+    </nav>
+
+    <div id="train-search-app"></div>
+
+    <script type="module" src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
