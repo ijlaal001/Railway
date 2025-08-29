@@ -1,13 +1,13 @@
 // Firebase Configuration
 // Replace with your actual Firebase config
 const firebaseConfig = {
-    apiKey: "your-api-key",
-    authDomain: "your-project.firebaseapp.com",
-    projectId: "your-project-id",
-    storageBucket: "your-project.appspot.com",
-    messagingSenderId: "123456789",
-    appId: "your-app-id"
-};
+       apiKey: "AIzaSyCXVU8nWqYyE9ve6r4wGSKE9V1Ym7J4vAY",
+    authDomain: "railway-32a34.firebaseapp.com",
+    projectId: "railway-32a34",
+    storageBucket: "railway-32a34.firebasestorage.app",
+    messagingSenderId: "901229784063",
+    appId: "1:901229784063:web:7dd86e4617ecf561f855ca"
+  };
 
 // Initialize Firebase
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js';
